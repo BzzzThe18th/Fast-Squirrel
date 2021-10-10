@@ -18,7 +18,8 @@ Logger &getLogger()
 MAKE_HOOK_FIND_CLASS_UNSAFE_INSTANCE(FlightController_Update, "", "FlightController", "Update", void, Il2CppObject* self)
 {
     FlightController_Update(self);
-    CRASH_UNLESS(il2cpp_utils::SetFieldValue(self, "dragFactor", 0.0f));
+    CRASH_UNLESS(il2cpp_utils::SetFieldValue(self, "maxVel", 250.0f));
+    CRASH_UNLESS(il2cpp_utils::SetFieldValue(self, "maxVelocity", 250.0f));
 }
 
 extern "C" void setup(ModInfo &info)
