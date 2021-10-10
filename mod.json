@@ -1,0 +1,17 @@
+
+{
+    "_QPVersion": "0.1.1",
+    "name": "Fast Squirrel",
+    "id": "fastsquirrel",
+    "author": "Buzz",
+    "version": "1.0.0",
+    "packageId": "com.loudshirtgames.flyingsquirrelchase",
+    "packageVersion": "0.9",
+    "description": "Flap harder go faster is a normal thing? Well yeah, but try flapping REALLY hard.",
+    "modFiles": [
+        "libfastsquirrel.so"
+    ],
+    "libraryFiles": [
+        "libbeatsaber-hook_3_1_2.so"
+    ]
+}
